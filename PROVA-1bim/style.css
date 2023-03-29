@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
      box-sizing: border-box;
@@ -8,7 +8,7 @@
     
     body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #ECF9FF;
     }
     
@@ -39,7 +39,7 @@
     font-size: 14px;
     font-weight: bold;
     background: #FEFCF3;
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
     }
     
     
@@ -318,14 +318,14 @@
     
     .sobre {
        padding: 60px;
-       background: #f7faff;
+       background: #e6faff;
        position: relative;
        text-align: right;
     }
     
     
     .sobre .sobre-card {
-       width: 350;
+       width: 460px;
        height: 300px;
        background: white;
        position: absolute;
@@ -354,18 +354,19 @@
        align-items: center;
     }
 
-    #page-container {
+    #rodape {
         position: relative;
         min-height: 100%;
-      }
+        background-color: #002B5B;
+    }
       
-      #content-wrap {
+    #content-wrap {
         padding-bottom: 2.5rem;    /* altura do rodapé */
-      }
+    }
       
-      #footer {
+    #footer {
         position: absolute;
         bottom: 0;
         width: 100%;
         height: 2.5rem;            /* altura do rodapé */
-      }
+    }
