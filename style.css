@@ -354,3 +354,13 @@ object-fit: cover;
    display: flex;
    align-items: center;
 }
+
+.contato .contato-card li svg {
+    width: 16px;
+    margin: 10px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
