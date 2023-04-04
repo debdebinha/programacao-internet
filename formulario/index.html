@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario IFPR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> <!-- conexão com css sempre por ultimo -->
+</head>
+<body class="py-5"> <!-- posicionamento atráves do bootstrap -->
+    <div class="container px-4 formBody">
+        <div class="text-center" id="img-topo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Instituto_Federal_do_Paran%C3%A1_-_Marca_Vertical_2015.svg/1200px-Instituto_Federal_do_Paran%C3%A1_-_Marca_Vertical_2015.svg.png" class="img-fluid mt-2 mb-3" alt="IFPR" width="200px">
+        </div>
+        <p class="paragraph mt-3">1 - Qual é o seu nome? </p>
+        <div class="input-group-text mb-3">
+            <span class="input-group-text">Primeiro nome:</span>
+            <input type="text" class="form-control" placeholder="Digite aqui"> <!-- place holder: o que aparece dentro do "botao"-->
+        </div>
+        <div class="input-group-text mb-3">
+            <span class="input-group-text">Segundo nome:</span>
+            <input type="text" class="form-control" placeholder="Digite aqui">
+        </div>
+
+        <p class="paragraph mt-3">2 - Qual o seu gênero? </p>
+        <div>
+            <input type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label for="flexRadioDefault1">Homem</label> <!-- botaozinho bolinha -->
+        </div>
+        <div>
+            <input type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+            <label for="flexRadioDefault2">Mulher</label>
+        </div>
+        <div>
+            <input type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+            <label for="flexRadioDefault3">Prefiro não informar</label>
+        </div>
+
+        <p class="paragraph mt-3">3 - Marque os treinamentos que você fez: </p>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox"> <!-- botaozinho tipo check -->
+            <label class="form-check-label">JavaScript</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Java</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Python</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">MySQL</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">UML</label>
+        </div>
+
+        <p class="paragraph mt-3">4- Quais são suas qualidades: </p>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="opt1">
+            <label class="form-check-label">Proativo</label> <!-- botao tipo quadradinho -->
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="opt1">
+            <label class="form-check-label">Frágil</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="opt1">
+            <label class="form-check-label">Criativo</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="opt1">
+            <label class="form-check-label">Resistente</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="opt1">
+            <label class="form-check-label">Sincero</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" value="opt1">
+            <label class="form-check-label">Confiança</label>
+        </div>
+        <div class="text-center py-4">
+            <button type="button" class="btn btn-outline-primary">Enviar</button> <!-- botão do bootstrap -->
+        </div>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> <!-- carrosel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3196405:1645652451/Trunk-Bay-Beach-Ilhas-Virgens-Americanas.jpg?f=16x9&h=720&q=0.8&w=1280&$p$f$h$q$w=5f8713e" class="d-block w-100" alt="maldivas">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.costacruzeiros.com/content/dam/costa/costa-magazine/article-images/brazil-beaches/spiagge-brasile-ipanema_2.jpg.image.694.390.low.jpg" class="d-block w-100" alt="praia">
+          </div>
+          <div class="carousel-item">
+            <img src="https://lp-cms-production.imgix.net/features/2014/09/Staff-ES_2001-447307c84171.jpg?auto=format&q=75&w=1920" class="d-block w-100" alt="malta">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="container text-center footer"> <!-- rodapé -->
+        <p>Desenvolvido por Debdebinha &copy; Todos os direitos reservados - 2023</p>
+    </div>
+    <script src="<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>"></script>
+
+</body>
+</html>
