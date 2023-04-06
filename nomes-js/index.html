@@ -10,18 +10,27 @@
 </head>
 <body>
     <div class="container">
-        <input type="text" id="searchField" placeholder="Pesquise">
-        <ul id="list"></ul>
-    </div> <!-- -->
-    <div>
-        <button type="button" class="btn btn-outline-danger">Adicionar</button>
-        <button type="button" class="btn btn-outline-primary">Selecionar</button>
-        <button type="button" class="btn btn-outline-info">Filtrar</button>
-        <button type="button" class="btn btn-outline-success">Remover</button>
+
+        <div class="text-center" id="img-topo">
+            <img src="https://64.media.tumblr.com/64423107ffef7ddc4cbef9f728a4972a/c91cd0d99bfe812b-b7/s1280x1920/782c160ac914c5f2864b9ce0bc37a50f6cd0de1e.pnj" class = "img-fluid mt-2 mb-3" alt="IFPR" width="200px">
+        </div>
+
+        <input type="text" class="border border-danger border-2"  id="searchField" placeholder="Pesquise">
+        <div>
+            <ul id="list" ></ul>
+        </div>
+
+    <div class="text-center">
+        <button type="button" class="btn btn-outline-danger"  id="adicionar">Adicionar </button>
+        <button type="button" class="btn btn-outline-primary" id="selecionar">Selecionar</button>
+        <button type="button" class="btn btn-outline-info" id="filtrar">Filtrar</button>
+        <button type="button" class="btn btn-outline-success" id="remover">Remover</button>
     </div>
-    <script src="lista.js"></script>
-    <div class="container text-center footer"> <!-- rodapé -->
-        <p>Desenvolvido por Debdebinha &copy; Todos os direitos reservados - 2023</p>
+
+    <div class="container text-center footer" id="rodape"> <!-- rodapé -->
+        <p>Desenvolvido por Debdebinha &copy; 2023</p>
     </div>
+</div> <!-- -->
+<script src="lista.js"></script>
 </body>
 </html>
