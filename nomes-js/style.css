@@ -29,5 +29,12 @@ li {
     border-radius: 8px;
     width: 100%;
     padding: 8px 15px;
-    margin: 5px 0;
+    margin: 8px 0;
+}
+
+#rodape {
+    position: absolute;
+    padding-bottom: 2rem;  /* altura do rodapé */
+    bottom: 0;
+    height: 2rem; /* altura do rodapé */
 }
